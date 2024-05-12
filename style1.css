@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    
+  
+}
+@font-face {
+    font-family: Firaregular;
+    src: url(../sustainability/fonts/FiraSans-Book.ttf);
+}
+@font-face {
+    font-family: Firabold;
+    src: url(../sustainability/fonts/FiraSans-Bold.ttf);
+}
+@font-face {
+    font-family: Firalight;
+    src: url(../sustainability/fonts/FiraSans-Light.ttf);
+}
+:root{
+    --Firaregular:Firaregular;
+    --Firabold:Firabold;
+    --Firalight:Firalight;
+    --theme-bluecolor: rgb(18, 0, 211);
+    --whitecolor:#ffffff;
+}
+.header{
+    max-width: 1230px;
+    margin: auto;
+    padding: auto;
+
+}
+body {
+   
+    font-family: Firaregular, Firabold, Firalight;
+   
+}
+.bg{
+  
+    max-width: 1150px;
+    height: 20px;
+    margin: auto;
+}
+
+.banner{
+    max-width: 1330px;
+   
+}
+#icons{
+    
+    background-color: rgb(43 49 125);
+    border: 1px solid rgb(43 49 125);
+    /* border-radius: 5px; */
+    padding: 12px;
+     margin-top: -2px; 
+   border-radius: 20px;
+    font-size: x-large;
+   
+
+}
+.sectionA{
+    max-width:1000px ;
+    margin: auto;
+    padding: auto;
+}
+.sectionB{
+    max-width:1100px ;
+    margin: auto;
+    padding: auto;
+}.sectionC{
+    max-width:850px ;
+    margin: auto;
+    padding: auto;
+}
+.sectionD{
+    max-width:1020px ;
+    margin: auto;
+    padding: auto;
+}
+
+.icon{
+    position: relative;
+}
+.reusepage{
+    position: relative;
+}
+.imageA{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+     height: 40px;
+   
+}
+.sectionB{
+    position: relative;
+}
+.sectionC{
+    position: relative;
+}
+.image5{
+    
+    position: absolute;
+    top: 54%;
+    left: 48%;
+    height: 40px;
+}
+   
+
+
+
+.search{
+   
+    border: 2px solid  rgb(43 49 125);
+    border-radius: 20px;
+    background-color: rgb(192, 192, 192);
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-top: 63px;
+    
+         
+}
+.iflex{
+    flex-basis: 50%;
+}
+input[type="text"] {
+    margin: 4px;
+    background-color: rgb(192, 192, 192);
+    border:none;
+    border-radius: 12px;
+    padding: 12px;
+    width: 258px;
+    
+   
+
+}
+input[type="text"] ::after{
+    content: '\f002';
+    font-family: "Font Awesome 6 Free" ;
+    font-weight: 700;
+}
+.header{
+    display: inline-block;
+}
+.header .container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+   
+    justify-content: space-between;
+ 
+       
+   
+}
+.container{
+    flex-basis: 40%;
+ 
+    
+}
+.menu{
+    margin-top: 40px;
+}
+
+
+.submenu li {
+    
+    display: inline-block;
+   
+         
+list-style-type: none;
+margin: 10px;
+   justify-content: space-between;
+}
+
+
+.submenu{
+    border: 1px solid white;
+border-radius: 25px;
+
+}
+ul{
+    padding-inline-start: 0px;
+    width: 500px;
+    background-color: rgb(192, 192, 192);
+    
+  }
+
+a{
+    text-decoration: none;
+    padding: 20px;
+                
+}
+
+.submenu{
+    display: flex;
+    justify-content: space-between;
+    opacity: .5;
+}
+.line{
+   flex-basis: 33.3%;
+   font-size: x-large; 
+  
+}
+.submenu  .line :hover    {
+    opacity: 1;
+    color: rgb(43, 43, 136);
+}
+.backround{
+    background-image: url(library/sustainability/images/3r-banner.jpg);
+    height: 720px;
+    width: 1330px; 
+    background-position: center;
+  
+}
+.heading{
+font-size: xx-large;
+font-weight: 900;
+text-align: center;
+margin-top: 0px;
+
+
+}
+
+.subhead{
+   margin-top: 0px;
+    margin-left: 68pc;
+    display: inline-block;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10%;
+    color: white;
+}
+
+.headA{
+    display: block;
+}
+
+
+.head{
+   
+    text-align: center;
+    margin-top: 100px;
+    font-size: xxx-large;
+}
+.para{
+    text-align: center;
+   
+    margin-top: 30px;
+}
+.plantonly{
+    margin-left: 110px;
+    width: 700px;
+  
+    border-radius: 10%;
+}
+
+.reusepage{
+    text-align: center;
+}
+.plantreuse{
+    width: 950px;
+    border-radius: 40px;
+    background-color:rgb(39 59 128);
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child{
+    margin-top: 30px;
+    border: 1px solid white;
+    background-color: rgb(239 239 239);
+    border-radius: 40px;
+    flex-basis: 30%;
+    height: 360px;
+}
+
+    
+.smallhead {
+        margin-bottom: 60px;
+        text-align: center;
+        color: aliceblue;
+        border: 1px solid whitesmoke;
+        width: 130px;
+        border-radius: 24px;
+        background-color: blue;
+        margin-left: 91px;
+        padding: 5px;
+        margin-top: -15px;
+        font-size: larger;
+
+}
+.size{
+    height: 170px;
+    margin-left: 60px;
+   
+}
+.para1{
+    text-align: center;
+}
+.big{
+    font-size:40px;
+    margin-bottom: 0px;
+    
+}
+.flexing{
+    display: flex;
+            margin-left: 19px;
+    margin-top: -31px;
+    
+}
+
+
+.car{
+    height: 30px;
+   
+}
+.name{
+    
+    display: inline-block;
+}
+.child :nth-child(5){
+    padding-bottom: 30px;
+}
+
+.last{
+    font-size: xx-large;
+    text-align: center;
+    margin: 50px;
+}
+.parent1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.child1{
+    flex-basis: 40%;
+  border: 1px solid whitesmoke;
+  background-color: rgb(239 239 239);
+  border-radius: 20px;
+  height: 310px;
+  margin: 25px;
+    
+ }.lastimageA{
+        margin-left: 100px;
+        
+          height: 150px;
+          margin-top: 2pc;
+      }
+    .lastimage{
+      margin-left: 70px;
+       
+        height: 150px;
+        margin-top: 2pc;
+    }
+    .set{
+        box-sizing: border-box;
+    max-width: 950px;
+    margin: auto;
+    }
+    .lastmenu{
+        max-width: 1200px;
+        margin-bottom: 100px;
+    }
+    .CarbonEmissions{
+       
+        border: 1px solid whitesmoke;
+        background-color:rgb(39 59 128);
+        color: white;
+        margin-left: 40px;
+        border-radius: 20px;
+        padding: 10px 80px;
+        
+    }
+    
+    .CarbonEmissionsA{
+        border: 1px solid whitesmoke;
+        background-color:rgb(39 59 128);
+        color: white;
+        margin-left: 0px;
+        border-radius: 10px;
+        padding: 10px 60px;
+    }
+    #parent2{
+margin-bottom: 150px;
+    }
+  .plantreuse {
+    margin-top: 50px;
+  }
+  .lastpart{
+    max-width: 1366px;
+    background-color: rgb(239 239 239);
+    display: flex;
+    justify-content: space-between;
+  }
+  .last-line{
+    margin-left: 25px;
+    margin-top:25px;
+    
+  
+  .fa-brands, .fab {
+    font-weight: 400;
+    font-size: x-large;
+    
+}
+.footer-bold{
+    font-size:x-large;
+    padding-bottom: 10px;
+    
+}
+.progress{
+    display: inline;
+}.progressA{
+    display: inline;
+    margin-top: 26px
+}
+.follow{
+    margin-left: -66px;
+    margin-bottom: -16px;
+    margin-top: 36px;
+}
+
+}
+.space{
+    margin-left: 10px;
+   
+}
+
+@media (min-width: 576px){
+     .backround{
+        background-image: url(library/sustainability/images/3r-banner.jpg);
+       width: auto;
+       margin: auto;
+    background-position: center;
+    }
+}
+@media (max-width:576px){
+    .backround{
+        background-image: url(library/sustainability/images/3r-banner.jpg);
+       width: 500px;
+        background-position: center;
+    }
+}
+   
+
+ /* git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rajasekar1053/engagesuzuki.git
+git push -u origin main */
